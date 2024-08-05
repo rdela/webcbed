@@ -1,0 +1,38 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title @text="title || metadata.title"></title>
+<meta name="description" :content="description || metadata.description">
+<!--- Uncomment this if you’d like folks to know that you used Eleventy to build your site! --->
+<!--- <meta name="generator" :content="eleventy.generator"> --->
+<!--- Uncomment if bundling js --->
+<!--- <script webc:keep @raw="getBundle('js', 'head')"></script> --->
+<!--- Relative to _includes/ --->
+<link rel="stylesheet" href="base.css">
+<style webc:keep @raw="getBundle('css')"></style>
+</head><body>
+	<visually-hidden>
+		<a href="#skip">Skip to main content</a>
+	</visually-hidden>
+
+	<section class="box">
+		<section>
+			<header>
+				<h1>
+					<a href="https://www.11ty.dev/docs/languages/webc/">WebC</a> bed 
+					<accessible-emoji emoji="🪸" alt="coral"></accessible-emoji>
+				</h1>
+			</header>
+
+			<main id="skip" @raw="content"></main>
+		</section>
+
+		<footer>
+			<span><a :href="metadata.repo" @text="metadata.title + '&nbsp;' + metadata.version"></a> +</span>
+			<span><a href="https://www.11ty.dev/">Eleventy&nbsp;v<span @text="process.env.ELEVENTY_VERSION" webc:nokeep></span></a></span>
+			<span @text="`©&nbsp;${(new Date()).getFullYear()}`"></span>
+		</footer>
+	</section>    
+	<!--- Uncomment if bundling js --->
+	<!--- <script type="module" webc:keep :src="getBundleFileUrl('js')"></script> --->
+	<script webc:type="js">`<!-- Build timestamp: ${Date.now()} -->`</script>
+</body></html>
