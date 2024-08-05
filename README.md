@@ -1,4 +1,4 @@
-# WebC Bed <span role="img" aria-label="coral">🪸</span>
+# WebC bed <span role="img" aria-label="coral">🪸</span>
 
 Minimal [Eleventy](https://www.11ty.dev/docs/) [WebC](https://www.11ty.dev/docs/languages/webc/) Starter
 
