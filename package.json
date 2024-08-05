@@ -1,6 +1,6 @@
 {
 	"name": "webcbed",
-	"version": "0.0.1-beta.1",
+	"version": "0.0.2-beta.1",
 	"description": "WebC Starter",
 	"type": "module",
 	"scripts": {
@@ -22,6 +22,7 @@
 	},
 	"devDependencies": {
 		"@11ty/eleventy": "^3.0.0-beta.1",
-		"@11ty/eleventy-plugin-webc": "^0.11.2"
+		"@11ty/eleventy-plugin-webc": "^0.11.2",
+    "emoji-short-name": "^2.0.0"
 	}
 }

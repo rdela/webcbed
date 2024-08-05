@@ -1,8 +1,6 @@
-# WebC Bed
+# WebC Bed <span role="img" aria-label="coral">🪸</span>
 
-Minimal Eleventy WebC Starter
-
-[WebC docs](https://www.11ty.dev/docs/languages/webc/)
+Minimal [Eleventy](https://www.11ty.dev/docs/) [WebC](https://www.11ty.dev/docs/languages/webc/) Starter
 
 Install packages:
 
@@ -20,5 +18,3 @@ npm run start
 ```
 
 Both commands run `eleventy --serve --quiet`
-
-[Eleventy docs](https://www.11ty.dev/docs/)
