@@ -1,8 +1,6 @@
 <script webc:root="override" webc:type="js" webc:raw>
 let label = "";
 if (alt) {
-	console.log(typeof alt);
-	console.log(alt);
 	label = alt.toString();
 } else {
 	label = emojiShortName(emoji);
