@@ -19,7 +19,8 @@
 			<header>
 				<h1>
 					<a href="https://www.11ty.dev/docs/languages/webc/">WebC</a> bed 
-					<accessible-emoji emoji="🪸" alt="coral"></accessible-emoji>
+					<!--- Optionally override the Unicode name with alt --->
+					<accessible-emoji emoji="🪸" alt="coral reef"></accessible-emoji>
 				</h1>
 			</header>
 
