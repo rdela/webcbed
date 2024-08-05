@@ -1,0 +1,8 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8">
+<title>WebC bed</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head><body>
+    <h1><a href="https://www.11ty.dev/docs/languages/webc/">WebC</a> bed</h1>
+
+    <my-component></my-component>
+</body></html>

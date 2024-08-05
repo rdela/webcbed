@@ -1,0 +1,27 @@
+{
+	"name": "webcbed",
+	"version": "0.0.1-beta.1",
+	"description": "WebC Starter",
+	"type": "module",
+	"scripts": {
+		"build": "eleventy",
+		"d": "eleventy --serve --quiet",
+		"start": "eleventy --serve --quiet",
+		"noisy": "eleventy --serve",
+		"debug": "DEBUG=Eleventy* eleventy",
+		"debugstart": "DEBUG=Eleventy* eleventy --serve --quiet",
+		"benchmark": "DEBUG=Eleventy:Benchmark* eleventy"
+	},
+	"author": {
+		"name": "Ricky de Laveaga",
+		"url": "https://rdela.com"
+	},
+	"license": "MIT",
+	"engines": {
+		"node": ">=18"
+	},
+	"devDependencies": {
+		"@11ty/eleventy": "^3.0.0-beta.1",
+		"@11ty/eleventy-plugin-webc": "^0.11.2"
+	}
+}
