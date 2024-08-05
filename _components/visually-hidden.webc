@@ -1,6 +1,6 @@
 <style webc:scoped>
 /**
- * Visually hide content while allowing it to remain focusable
+ * Visually hide elements while allowing them to remain focusable
  *
  * Learn more: 
  * - https://www.a11yproject.com/posts/how-to-hide-content/
