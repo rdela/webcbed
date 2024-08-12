@@ -15,7 +15,7 @@
 	</visually-hidden>
 
 	<section class="box">
-		<section>
+		<div>
 			<header>
 				<h1>
 					<a href="https://www.11ty.dev/docs/languages/webc/">WebC</a> bed 
@@ -25,7 +25,7 @@
 			</header>
 
 			<main id="skip" @raw="content"></main>
-		</section>
+		</div>
 
 		<footer>
 			<span><a :href="metadata.repo" @text="metadata.title + '&nbsp;' + metadata.version"></a> +</span>
